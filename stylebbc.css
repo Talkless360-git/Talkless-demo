@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: hevetica, Arial, Helvetica, sans-serif;
+}
+
+#topbar{
+width: 1000px;
+margin: 0 auto;
+height: 40px;
+}
+
+#logo{
+    margin-top: 5px;
+    width: 100px;
+    float: left;
+    margin-right: 8px;
+}
+
+.topbar-section{
+    float: left;
+    border-left: 1px #cccccc solid;
+    height: 100%;
+}
+
+#profile{
+    width: 25px;
+    height: 25px;
+    margin-top: 9px;
+    margin-left: 15px;
+    float: left;
+}
+
+#signin-text{
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: 14px;
+    padding: 10px;
+}
+
+#bell-div{
+    float: left;
+}
+
+#bell{
+    width: 25px;
+    height: 24px;
+    float: left;
+    padding: 10px;
+}
+
+.topbar-menu{
+    font-weight: bold;
+    font-size: 90%;
+    padding: 10px 15px 0;
+    height: 27px;
+}
+
+#searchbox{
+    background-color: #E4E4E4;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+
+#search-icon{
+    width: 30px;
+    height: 27px;
+    margin-top: 5px;
+}
+
+.clear{
+    clear: both;
+}
+
+#menubar-container{
+    border-top: 1px solid #cccccc;
+    background-color: #BB1919;
+    width: 100%;
+    height: 70px;  
+}
+
+#menu-bar{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    padding: 0;
+    margin: 0px;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    padding: 10px;
+    float: left;
+}
+
+#local-news{
+    color: white ;
+    padding: 15px;
+    border: 1px white solid;
+    float: right;
+    width: 180px;
+    padding: 5px 5px 0 10px;
+    margin:  15px 10px 0 0;
+}
+
+#local-news a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+}
+
+#local-news a:hover{
+    text-decoration: underline;
+}
+
+#local-news img{
+    height: 30px;
+    width: 30px;
+}
+
+#menubar-2-container{
+    background-color: #A91717;
+    width: 100%;
+}
+
+#menubar-2{
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+#menubar-2 a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10x;
+    border-right: 1px solid #BB4545;
+    font-size: 14px;
+    position: relative;
+    top: 10px;   
+}
+
+#menubar-2:hover{
+    text-decoration: underline;
+}
+
+.no-border{
+    border: none! important;
+}
+
+#page-container{
+    width: 1000px;
+    margin:0 auto;
+}
+
+h2{
+    font-weight: normal;
+    margin-top: 40px;
+    font-size: 20px;
+    border-bottom: 2px solid #a91717;
+    width: 105px;
+}
+
+h3 a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+h3 a:hover{
+    color: #1167a8;
+}
+#article-summary{
+    color: #5a5a5a;
+    width: 240px;
+    float: left;
+}
+
+.clock{
+    color: #5a5a5a;
+    width: 250px;
+    float: left; 
+}
+
+.topic-link{
+    text-decoration: none;
+    color: #a91717;
+    border-left: 1px solid #cccccc;
+    padding: 10px;
+}
+
+
+
+
+#article-summary a:hover{
+    color: #1167a8;
+}
+
+#clock{
+    width: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.date{
+    padding-right: 10px;
+    color:#5a5a5a;
+}
+
+#article-container{
+    float: left;
+    width: 670px;
+    border-right: 1px solid #cccccc;
+    padding-right: 20px;
+   
+}
+
+#main-article-image{
+    width: 350px;
+    margin-left: 20px;
+    
+}
+
+#article-hr{ 
+    border-top: 1px solid #a91717;
+    width: 50px;  
+}
+
+.article-link{
+    color: black;
+    text-decoration: none;
+}
+
+#watch-listen{
+    margin: 20px;
+    width:280px ;
+    float:right;
+    
+}
+
+h4{
+    font-weight: normal;
+    font-size: 20px;
+    
+}
+
+.article-side-image{
+    float: left;
+    width: 90px;
+    margin-right: 10px;
+    
+}
+
+.watch-listen-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.whatch-listen-link:hover{
+    color: #1167a8;
+
+
+}
+
+.side-article{
+    float: right;
+    width: 180px;
+    position: relative;
+    top:-18px;
+}
+
+.no-border{
+    border-left: none;
+    padding: 0;
+
+}
+.border-right{
+    border-right: 1px solid #cccccc;
+}

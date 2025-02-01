@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Java Script</title>
+
+</head>
+
+
+<body>
+    
+    <p id="text">Hellow World</p>
+    <button id="myButton">Change text</button>
+
+    <p id="secondparagraph">Javascript is ....</p>
+    <button id="secondButton">Append text</button>
+
+    <p id="emptyparagraph"></p>
+    <button id="thirdbutton">Display</button>
+
+    <p id="moretext"> This is some text</p>
+    <button id="styletext"> Style Text</button>
+
+
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function(){
+            document.getElementById("text").innerHTML = "hello man";
+        }
+        
+        document.getElementById("secondButton").onclick = function(){
+            document.getElementById("secondparagraph").innerHTML ="I think " + document.getElementById("secondparagraph").innerHTML + " awsome";
+        }
+
+        document.getElementById("thirdbutton").onclick = function(){
+            document.getElementById("emptyparagraph").innerHTML = "welcome to my site"
+            
+        }
+       document.getElementById("styletext").onclick = function(){
+        document.getElementById("moretext").style.color = "red";
+       }
+
+
+    </script>
+
+</body>
+</html>
